@@ -7,5 +7,7 @@ MEMORY
 SECTIONS {
   linkme_SHENANIGANS : { *(linkme_SHENANIGANS) } > FLASH
   linkme_EMPTY : { *(linkme_EMPTY) } > FLASH
+  linkm2_SHENANIGANS : { *(linkm2_SHENANIGANS) } > FLASH
+  linkm2_EMPTY : { *(linkm2_EMPTY) } > FLASH
 }
 INSERT AFTER .rodata
