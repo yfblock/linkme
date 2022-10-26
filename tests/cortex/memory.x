@@ -10,4 +10,4 @@ SECTIONS {
   linkme_EMPTY : { *(linkme_EMPTY) } > FLASH
   linkm2_EMPTY : { *(linkm2_EMPTY) } > FLASH
 }
-INSERT BEFORE .rodata
+INSERT AFTER .rodata
