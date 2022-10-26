@@ -57,6 +57,8 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y qemu-system-arm
+          rustc --version
+          qemu-system-arm --version
       # - run: cargo run --release
       #   working-directory: tests/cortex
       #   continue-on-error: true
